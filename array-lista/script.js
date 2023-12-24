@@ -1,6 +1,6 @@
 console.log('js ok');
 
-const frigo = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'limone', 'fragola'];
+const frigo = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino' , 'cocomero', 'limone', 'fragola'];
 console.log(frigo);
 
 
@@ -20,7 +20,8 @@ for (i = 0; i < frigo.length && isCocomero === false; i++){
 
 }
 
-if (isCocomero = true){
+
+if (isCocomero === true){
     console.log("Cocomero Trovato");
 
 }else{
